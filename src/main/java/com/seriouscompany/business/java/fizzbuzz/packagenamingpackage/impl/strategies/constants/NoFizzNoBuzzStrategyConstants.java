@@ -12,5 +12,6 @@ public final class NoFizzNoBuzzStrategyConstants {
 
 	public static final int NO_BUZZ_INTEGER_CONSTANT_VALUE = BuzzStrategyConstants.BUZZ_INTEGER_CONSTANT_VALUE;
 	public static final int NO_FIZZ_INTEGER_CONSTANT_VALUE = FizzStrategyConstants.FIZZ_INTEGER_CONSTANT_VALUE;
+	public static final int NO_FIZZY_BUZZY_INTEGER_CONSTANT_VALUE = FizzyBuzzyStrategyConstants.FIZZY_BUZZY_INTEGER_CONSTANT_VALUE;
 
 }

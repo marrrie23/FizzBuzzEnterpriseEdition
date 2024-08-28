@@ -9,6 +9,7 @@ public class Constants {
 	public static final String BUZZ = "Buzz";
 	public static final String COM_SERIOUSCOMPANY_BUSINESS_JAVA_FIZZBUZZ_PACKAGENAMINGPACKAGE_IMPL_PRINTERS_INTEGER_INTEGER_PRINTER_PRINT = "com.seriouscompany.business.java.fizzbuzz.packagenamingpackage.impl.printers.IntegerIntegerPrinter.print()";
 	public static final String FIZZ = "Fizz";
+	public static final String FIZZY_BUZZY = "FizzyBuzzy";
 	public static final String LINE_SEPARATOR = "line.separator";
 	public static final String LOOP_COMPONENT_FACTORY = "loopComponentFactory";
 	public static final String SPRING_XML = "spring.xml";

@@ -7,16 +7,16 @@ public class TestConstants {
 		super();
 	}
 
-	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8_FIZZ_BUZZ_11_FIZZ_13_14_FIZZ_BUZZ_16 = "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n16\n";
-	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8_FIZZ_BUZZ_11_FIZZ_13_14_FIZZ_BUZZ = "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n";
-	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8_FIZZ_BUZZ_11_FIZZ_13_14 = "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\n";
-	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8_FIZZ_BUZZ_11_FIZZ_13 = "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n";
-	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8_FIZZ_BUZZ_11_FIZZ = "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n";
-	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8_FIZZ_BUZZ_11 = "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\n";
-	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8_FIZZ_BUZZ = "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n";
-	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8_FIZZ = "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\n";
-	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8 = "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\n";
-	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7 = "1\n2\nFizz\n4\nBuzz\nFizz\n7\n";
+	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8_FIZZ_BUZZ_11_FIZZ_13_14_FIZZ_BUZZ_16 = "1\n2\nFizz\n4\nBuzz\nFizz\nFizzyBuzzy\n8\nFizz\nBuzz\n11\nFizz\n13\nFizzyBuzzy\nFizzBuzz\n16\n";
+	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8_FIZZ_BUZZ_11_FIZZ_13_14_FIZZ_BUZZ = "1\n2\nFizz\n4\nBuzz\nFizz\nFizzyBuzzy\n8\nFizz\nBuzz\n11\nFizz\n13\nFizzyBuzzy\nFizzBuzz\n";
+	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8_FIZZ_BUZZ_11_FIZZ_13_14 = "1\n2\nFizz\n4\nBuzz\nFizz\nFizzyBuzzy\n8\nFizz\nBuzz\n11\nFizz\n13\nFizzyBuzzy\n";
+	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8_FIZZ_BUZZ_11_FIZZ_13 = "1\n2\nFizz\n4\nBuzz\nFizz\nFizzyBuzzy\n8\nFizz\nBuzz\n11\nFizz\n13\n";
+	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8_FIZZ_BUZZ_11_FIZZ = "1\n2\nFizz\n4\nBuzz\nFizz\nFizzyBuzzy\n8\nFizz\nBuzz\n11\nFizz\n";
+	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8_FIZZ_BUZZ_11 = "1\n2\nFizz\n4\nBuzz\nFizz\nFizzyBuzzy\n8\nFizz\nBuzz\n11\n";
+	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8_FIZZ_BUZZ = "1\n2\nFizz\n4\nBuzz\nFizz\nFizzyBuzzy\n8\nFizz\nBuzz\n";
+	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8_FIZZ = "1\n2\nFizz\n4\nBuzz\nFizz\nFizzyBuzzy\n8\nFizz\n";
+	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7_8 = "1\n2\nFizz\n4\nBuzz\nFizz\nFizzyBuzzy\n8\n";
+	static final String _1_2_FIZZ_4_BUZZ_FIZZ_7 = "1\n2\nFizz\n4\nBuzz\nFizz\nFizzyBuzzy\n";
 	static final String _1_2_FIZZ_4_BUZZ_FIZZ = "1\n2\nFizz\n4\nBuzz\nFizz\n";
 	static final String _1_2_FIZZ_4_BUZZ = "1\n2\nFizz\n4\nBuzz\n";
 	static final String _1_2_FIZZ_4 = "1\n2\nFizz\n4\n";

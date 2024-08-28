@@ -42,6 +42,8 @@ public class SingleStepOutputGenerationStrategy implements OutputGenerationStrat
 			final FizzStringPrinterFactory fizzStringPrinterFactory,
 			final BuzzStrategyFactory buzzStrategyFactory,
 			final BuzzStringPrinterFactory buzzStringPrinterFactory,
+			final FizzyBuzzyStrategyFactory fizzyBuzzyStrategyFactory,
+			final FizzyBuzzyStringPrinterFactory fizzyBuzzyStringPrinterFactory,
 			final NoFizzNoBuzzStrategyFactory noFizzNoBuzzStrategyFactory,
 			final IntegerIntegerPrinterFactory integerIntegerPrinterFactory,
 			final NewLineStringPrinterFactory newLineStringPrinterFactory) {
@@ -52,9 +54,12 @@ public class SingleStepOutputGenerationStrategy implements OutputGenerationStrat
 				fizzStringPrinterFactory.createStringPrinter()));
 		this.contexts.add(new FizzBuzzOutputGenerationContext(buzzStrategyFactory.createIsEvenlyDivisibleStrategy(),
 				buzzStringPrinterFactory.createStringPrinter()));
+		this.contexts.add(new FizzBuzzOutputGenerationContext(fizzyBuzzyStrategyFactory.createIsEvenlyDivisibleStrategy(),
+				fizzyBuzzyStringPrinterFactory.createStringPrinter()));
 		this.contexts.add(new FizzBuzzOutputGenerationContext(
 				noFizzNoBuzzStrategyFactory.createIsEvenlyDivisibleStrategy(),
 				integerIntegerPrinterFactory.createPrinter()));
+
 
 		this.myNewLinePrinter = newLineStringPrinterFactory.createStringPrinter();
 	}

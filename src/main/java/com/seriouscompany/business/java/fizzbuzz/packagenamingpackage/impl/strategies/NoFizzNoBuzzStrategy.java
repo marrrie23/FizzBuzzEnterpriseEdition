@@ -17,24 +17,13 @@ public class NoFizzNoBuzzStrategy implements IsEvenlyDivisibleStrategy {
 	 * @return boolean
 	 */
 	public boolean isEvenlyDivisible(final int theInteger) {
-		if (!NumberIsMultipleOfAnotherNumberVerifier.numberIsMultipleOfAnotherNumber(theInteger,
-				NoFizzNoBuzzStrategyConstants.NO_FIZZ_INTEGER_CONSTANT_VALUE)) {
-			if (!NumberIsMultipleOfAnotherNumberVerifier.numberIsMultipleOfAnotherNumber(theInteger,
-					NoFizzNoBuzzStrategyConstants.NO_BUZZ_INTEGER_CONSTANT_VALUE)) {
-				return true;
-			} else {
-				return false;
-			}
-		} else if (!NumberIsMultipleOfAnotherNumberVerifier.numberIsMultipleOfAnotherNumber(theInteger,
-				NoFizzNoBuzzStrategyConstants.NO_BUZZ_INTEGER_CONSTANT_VALUE)) {
-			if (!NumberIsMultipleOfAnotherNumberVerifier.numberIsMultipleOfAnotherNumber(theInteger,
-					NoFizzNoBuzzStrategyConstants.NO_FIZZ_INTEGER_CONSTANT_VALUE)) {
-				return true;
-			} else {
-				return false;
-			}
-		} else {
-			return false;
-		}
+		boolean isMultipleOfNoFizz = NumberIsMultipleOfAnotherNumberVerifier
+				.numberIsMultipleOfAnotherNumber(theInteger, NoFizzNoBuzzStrategyConstants.NO_FIZZ_INTEGER_CONSTANT_VALUE);
+		boolean isMultipleOfNoBuzz = NumberIsMultipleOfAnotherNumberVerifier
+				.numberIsMultipleOfAnotherNumber(theInteger, NoFizzNoBuzzStrategyConstants.NO_BUZZ_INTEGER_CONSTANT_VALUE);
+		boolean isMultipleOfNoFizzyBuzzy = NumberIsMultipleOfAnotherNumberVerifier
+				.numberIsMultipleOfAnotherNumber(theInteger, NoFizzNoBuzzStrategyConstants.NO_FIZZY_BUZZY_INTEGER_CONSTANT_VALUE);
+
+		return !isMultipleOfNoFizzyBuzzy && !isMultipleOfNoFizz && !isMultipleOfNoBuzz;
 	}
 }
